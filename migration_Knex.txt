@@ -1,0 +1,22 @@
+exports.up = function (knex, Promise) {
+    return knex.schema.createTable('pessoas', table => {
+        table.increments('idPessoa').primary()
+        table.string('nome').notNull()
+        table.string('sobrenome').notNull().unique()
+        table.string('cpf').notNull().unique()
+        table.string('email').notNull().unique()
+       
+        table.string('cidade').notNull()
+        table.string('bairro').notNull()
+        table.timestamp('nascimento').notNull()
+    })
+};
+
+exports.down = function (knex, Promise) {
+    return knex.schema.dropTable('pessoas')
+};
+
+
+knex migrate:make create_table_pessoas
+knex migrate:latest
+knex migrate:rollback

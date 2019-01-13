@@ -1,0 +1,14 @@
+C:\dotNetCor\devmedia\bin\Debug\netcoreapp2.1\devmedia.deps.json
+C:\dotNetCor\devmedia\bin\Debug\netcoreapp2.1\devmedia.runtimeconfig.json
+C:\dotNetCor\devmedia\bin\Debug\netcoreapp2.1\devmedia.runtimeconfig.dev.json
+C:\dotNetCor\devmedia\bin\Debug\netcoreapp2.1\devmedia.dll
+C:\dotNetCor\devmedia\bin\Debug\netcoreapp2.1\devmedia.pdb
+C:\dotNetCor\devmedia\obj\Debug\netcoreapp2.1\devmedia.csproj.CoreCompileInputs.cache
+C:\dotNetCor\devmedia\obj\Debug\netcoreapp2.1\devmedia.RazorAssemblyInfo.cache
+C:\dotNetCor\devmedia\obj\Debug\netcoreapp2.1\devmedia.RazorAssemblyInfo.cs
+C:\dotNetCor\devmedia\obj\Debug\netcoreapp2.1\devmedia.AssemblyInfoInputs.cache
+C:\dotNetCor\devmedia\obj\Debug\netcoreapp2.1\devmedia.AssemblyInfo.cs
+C:\dotNetCor\devmedia\obj\Debug\netcoreapp2.1\devmedia.RazorTargetAssemblyInfo.cache
+C:\dotNetCor\devmedia\obj\Debug\netcoreapp2.1\devmedia.dll
+C:\dotNetCor\devmedia\obj\Debug\netcoreapp2.1\devmedia.pdb
+C:\dotNetCor\devmedia\obj\Debug\netcoreapp2.1\devmedia.csprojAssemblyReference.cache

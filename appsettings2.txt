@@ -1,0 +1,60 @@
+{ 
+  "ConnectionStrings": {
+    "DapperPostgre": "Server=elmer.db.elephantsql.com; Port=5432; Database:jppvjfuq;     User Id=jppvjfuq; Password=6HHUqSQGDttgm_kV_bf6FmYAdsM7ADAj";
+  },
+,  {
+  "Logging": {
+    "LogLevel": {
+      "Default": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}
+
+stored procedure com Dapper
+using (sqlconnection conexao = new sqlconnection(
+   _config.GetConnectionString("DapperMysql")))
+  {
+  return conexao.ueryFirstOrDefault<Pessoa>(
+   "dbo.PRC_SEL_DETALHES_PESSOA",
+   new { CodPessoa = idPessoa },
+   commandType: CommandType.StoredProcudure);
+  }
+
+
+***
+Com Dapper.Contrib
+Na Tabela
+Decorar classe com 
+[Table("dbo.Estados")]
+public  class Estado
+{
+   [ExplicitKey] -// Decorar a chave primaria
+   public swtring SiglaEstado { get; set;} 
+  ....
+? 
+
+Na busca
+Select ja definido ( Todos)
+using (sqlconnection conexao = new sqlconnection(
+   _config.GetConnectionString("DapperMysql")))
+  {
+     return conexao.GetAll<Pessoa>()
+
+  }
+
+Por ID
+using (sqlconnection conexao = new sqlconnection(
+   _config.GetConnectionString("DapperMysql")))
+  {
+     return conexao.GetAll<Pessoa>(idPessoa)()
+
+  }
+
+DELETE FROM `fcm`.`pessoas`
+WHERE <{where_expression}>;
+DELETE FROM `fcm`.`pessoas`
+WHERE <{where_expression}>;
+
+
+UPDATE `fcm`.`pessoas` SET  `nome` = 'Pedro', `sobrenome` = 'Filizola', `cpf` = '740.230.927.87', `email` = 'pedro@gmail.com', `cidade` = 'Rio de Janeiro', `bairro`= 'Rio comprido', `nascimento`= '1975-11-16 00:00'  WHERE `idPessoa` = 2
