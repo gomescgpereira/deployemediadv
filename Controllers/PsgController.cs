@@ -22,8 +22,7 @@ namespace devmedia.Controllers
         {
             _repository = repository;
         }
-
-
+        
         // GET: api/Psg
         [HttpGet]
         [ProducesResponseType(201)]

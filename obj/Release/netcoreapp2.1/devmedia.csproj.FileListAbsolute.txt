@@ -17,7 +17,6 @@ C:\dev\devmedia\deployemediadv\bin\Release\netcoreapp2.1\devmedia.runtimeconfig.
 C:\dev\devmedia\deployemediadv\bin\Release\netcoreapp2.1\devmedia.runtimeconfig.dev.json
 C:\dev\devmedia\deployemediadv\bin\Release\netcoreapp2.1\devmedia.dll
 C:\dev\devmedia\deployemediadv\bin\Release\netcoreapp2.1\devmedia.pdb
-C:\dev\devmedia\deployemediadv\obj\Release\netcoreapp2.1\devmedia.csprojAssemblyReference.cache
 C:\dev\devmedia\deployemediadv\obj\Release\netcoreapp2.1\devmedia.csproj.CoreCompileInputs.cache
 C:\dev\devmedia\deployemediadv\obj\Release\netcoreapp2.1\devmedia.RazorAssemblyInfo.cache
 C:\dev\devmedia\deployemediadv\obj\Release\netcoreapp2.1\devmedia.RazorAssemblyInfo.cs
