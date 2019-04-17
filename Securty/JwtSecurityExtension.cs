@@ -2,7 +2,8 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.DependencyInjection;
-using APIProdutos.Security;
+using devmedia.Model;
+
 
 namespace APIProdutos.Security
 {

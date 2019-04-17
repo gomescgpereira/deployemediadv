@@ -1,0 +1,19 @@
+services:
+  devmedia:
+    build:
+      context: C:\dev\devmedia\deployemediadv
+      dockerfile: Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTPS_PORT: '44392'
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: devmedia
+    ports:
+    - published: 62414
+      target: 80
+    - published: 44392
+      target: 443
+    volumes:
+    - C:\Users\host\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\host\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'
