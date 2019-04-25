@@ -18,7 +18,7 @@ namespace devmedia.repositorio
         //private IConfiguration _config;
         private string connectionString;
 
-        private readonly string teste;
+        //private readonly string teste;
 
         public RepositoriesPessoaPsq(IConfiguration configuration)
         {

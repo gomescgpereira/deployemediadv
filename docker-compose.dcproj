@@ -3,7 +3,7 @@
   <PropertyGroup Label="Globals">
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
-    <ProjectGuid>131e969c-7c79-4ae1-bb52-00537c9b964c</ProjectGuid>
+    <ProjectGuid>339341ce-0e68-4ab7-99af-eeefdcc33399</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}/api/values</DockerServiceUrl>
     <DockerServiceName>devmedia</DockerServiceName>

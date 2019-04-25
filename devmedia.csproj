@@ -8,6 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove=".dockerignore" />
+    <None Remove="docker-compose.override.yml" />
+    <None Remove="docker-compose.yml" />
+    <None Remove="Dockerfile.original" />
+    <None Remove="Dockerfile1.original" />
+    <None Remove="Dockerfile2.original" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Dominio\Services\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>

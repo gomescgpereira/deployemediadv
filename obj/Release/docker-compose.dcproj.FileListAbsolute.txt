@@ -1,0 +1,5 @@
+C:\dev\devmedia\deployemediadv\bin\Release\devmedia.dll
+C:\dev\devmedia\deployemediadv\bin\Release\devmedia.pdb
+C:\dev\devmedia\deployemediadv\obj\Release\docker-compose.dcprojAssemblyReference.cache
+C:\dev\devmedia\deployemediadv\obj\Release\docker-compose.dcproj.CoreCompileInputs.cache
+C:\dev\devmedia\deployemediadv\obj\Release\docker-compose.dcproj.CopyComplete
